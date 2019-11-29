@@ -16,7 +16,7 @@ variables:
   pwd: Mengta123                                                                          # 阿里云 login username
   namespace: mt_test                                                                      # 阿里云 命名空间
   imageName: test                                                                         # 阿里云 仓库名称
-  registry: registry.cn-hangzhou.aliyuncs.com/mt_test/test                                # 阿里云 公网地址
+  registry: registry.cn-hangzhou.aliyuncs.com                                             # 阿里云 公网地址
   dockerfilepath:  samples/MicroserviceDemo/applications/AuthServer.Host/Dockerfile       # Github Dockerfile相对路径
 
 
